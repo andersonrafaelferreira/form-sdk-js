@@ -100,7 +100,7 @@ $(document).ready( function(){
       var phone = $('#phone').val();
       var message = $('#message').val();
       
-      //destination email web@4pme.com.br
+      //destination email web@SEUSITE.com.br
       var destination = named; 
   
       if(name.length <= 3){

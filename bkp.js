@@ -8,7 +8,7 @@ let content = `
 
     <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Seu email" name="email" value="web@4pme.com.br">
+        <input type="email" class="form-control" id="email" placeholder="Seu email" name="email" value="web@SEUSITE.com.br">
     </div>
 
     <div class="form-group">
@@ -101,7 +101,7 @@ $('#message').html(Date.now());
       var phone = $('#phone').val();
       var message = $('#message').val();
       
-      //destination email web@4pme.com.br
+      //destination email web@SEUSITE.com.br
       var destination = named; 
   
       if(name.length <= 3){
@@ -134,7 +134,7 @@ $('#message').html(Date.now());
       /* Ajax */
       $.ajax({
            type: "POST",
-           url: "https://4pmesites.com.br/sender.php", /* endereço do phpmailer */
+           url: "https://SEUSITEsites.com.br/sender.php", /* endereço do phpmailer */
            async: true,
            data: urlData,
            success: function(data) {
